@@ -39,3 +39,7 @@ print(car2.get_info())
 # Using methods
 print(car1.drive(100))
 print(car2.drive(250))
+print(car1.drive(100)) #car1 มี mileage = 0+100
+print(car2.drive(250)) #car2 มี mileage = 0+250
+
+print (car1.drive(200))
