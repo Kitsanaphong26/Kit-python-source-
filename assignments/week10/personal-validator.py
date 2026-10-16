@@ -28,7 +28,6 @@ Age Group: Young Adult (18-30)
 Phone: +91-9876543210
 
 """
-"""
 
 print("===PERSONAL INFORMATION VALIDATOR ===")
 name = input("Entet your name:")
@@ -72,7 +71,8 @@ else:
 
 
 print("Formatted Information:")
-print(f"Name:" {name.upper()})
+print(f"Name: {name.upper()}")
+
 if 18 <= age <= 30:
     print("Age Group: Young Adult (18-30)")
 elif 31 <= age <= 60:
@@ -80,4 +80,3 @@ elif 31 <= age <= 60:
 else:
     print("Age Group: Senior")
 print(f"Phone: +91-{phone}") 
-"""
